@@ -55,17 +55,6 @@ class Register extends REST_Controller {
 
 	}
 
-	function testGetAut(){
-
-		$test = $this->index_get();
-
-		$expected_result = ;
-
-		$test_name = 'TEST';
-
-		$this->unit->run($test, $expected_result, $test_name);
-	}
-
 
     //Mengirim atau menambah data kontak baru
 	function index_post() {
